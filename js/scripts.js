@@ -101,7 +101,7 @@ function filter (sValue) {
       const searchName = name.querySelector('.card-name').textContent;
 
       if (searchName.indexOf(sValue) > -1) {
-        name.style.display = 'block';
+        name.style.display = '';
       } else {
         name.style.display = 'none';
       };
